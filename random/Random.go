@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-func random() string {
+func GetRandom() string {
 
 	return fmt.Sprintf("from random module %f ",rand.Float32())
 }
